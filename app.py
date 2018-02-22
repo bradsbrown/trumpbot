@@ -11,4 +11,5 @@ def insanity(tweets):
 
 
 if __name__ == '__main__':
+    print(twitter_scraper.get_tweets('realdonaldtrump', pages=1))
     print(insanity(trump_tweets()))
